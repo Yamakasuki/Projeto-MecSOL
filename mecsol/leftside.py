@@ -106,7 +106,7 @@ class LeftSideWidget(QWidget):
 
 
     def button_calcular_clicked(self):
-        self.truss.get
+        self.truss.setFlagC(True)
         
 
 

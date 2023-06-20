@@ -133,7 +133,7 @@ class GraphWidget(QWidget):
                 
         if(self.forces != None):
             for vector in self.forces:
-                self.ax.quiver(0, 0, 0, vector[0], vector[1], vector[2], color='r', arrow_length_ratio=0.1)
+                self.ax.quiver(self.truss.xp(self.Forces_counter-1),self.truss.yp(self.Forces_counter-1),self.truss.zp(self.Forces_counter-1), vector[0], vector[1], vector[2], color='r', arrow_length_ratio=0.1)
 
                 
         # Set labels and title

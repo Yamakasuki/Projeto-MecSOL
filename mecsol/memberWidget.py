@@ -50,7 +50,8 @@ class MemberWidget(QDialog):
 
             self.truss.setMembersID(id)
             self.truss.setMembers(nodeA, nodeB)
-
+            print("paia")
+            print(self.truss.getMembers())
             print(self.dA)
             print(self.dB)
 

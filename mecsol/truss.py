@@ -228,6 +228,9 @@ class Truss:
     def setMembersID(self, id):
         self.MembersID = id
 
+    def getMembersIDs(self):
+        return self.MembersID
+
     def setSupports(self, type, id):
         # id é referente ao ponto que o suporte esta
         if(type == "pino"):
